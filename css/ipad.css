@@ -826,6 +826,61 @@ p {
     gap: 20px;
 }
 
+/*certification*/
+#certification {
+    background: linear-gradient(to bottom,
+            rgba(0, 198, 106, 0.8),
+            rgba(93, 32, 157, 0.8));
+    color: white;
+    width: 90%;
+    margin-left: 5%;
+    min-height: 670px;
+    position: relative;
+    top: 150px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    opacity: 0.9;
+}
+
+#certification a1 {
+    font-size: 3rem;
+    font-weight: bolder;
+    color: rgba(85, 255, 0, 0.947);
+    text-shadow: 5px 5px 10px rgb(46, 0, 81);
+    text-align: center;
+    margin-top: 20px;
+}
+
+#detailscert {
+    box-shadow: 0 -6px 2px -2px rgb(237, 76, 76),
+        0 6px 2px -2px rgb(148, 178, 0);
+    color: white;
+    width: 100%;
+    height: 530px;
+    position: relative;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-y: auto;
+}
+
+#itemscert {
+    box-shadow: 3px 3px 5px 5px white;
+    color: white;
+    width: 300px;
+    height: 490px;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-right: 20px;
+    position: relative;
+    border-radius: 5px;
+    flex-shrink: 0;
+    overflow-y: auto;
+}
+
 /*Language Section*/
 #languages {
     background-color: rgba(172, 0, 0, 0.8);

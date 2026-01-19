@@ -683,6 +683,61 @@ p {
     gap: 20px;
 }
 
+/*certification*/
+#certification {
+    background: linear-gradient(to bottom,
+            rgb(200, 129, 54),
+            rgba(68, 179, 20, 0.8)60%,
+            rgba(149, 24, 68, 0.9) 90%);
+    color: white;
+    width: 85%;
+    margin-left: 10%;
+    min-height: 600px;
+    position: relative;
+    top: 150px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#certification a1 {
+    font-size: 3rem;
+    font-weight: bolder;
+    color: rgb(182, 129, 129);
+    text-shadow: 5px 5px 10px rgb(46, 0, 81);
+    text-align: center;
+    margin-top: 20px;
+}
+
+#detailscert {
+    box-shadow: 0 -6px 2px -2px rgb(237, 76, 76),
+        0 6px 2px -2px rgb(148, 178, 0);
+    color: white;
+    width: 100%;
+    height: 470px;
+    position: relative;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-y: auto;
+}
+
+#itemscert {
+    box-shadow: 3px 3px 5px 5px white;
+    color: white;
+    width: 280px;
+    height: 420px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-right: 20px;
+    position: relative;
+    border-radius: 5px;
+    flex-shrink: 0;
+    overflow-y: auto;
+}
+
 /*Language Section*/
 #languages {
     background: linear-gradient(to bottom,
@@ -1262,7 +1317,7 @@ p {
 /*Pc Navigation button*/
 #button-container {
     position: absolute;
-    margin-top: 320px;
+    margin-top: 340px;
     margin-left: 170px;
     transform: translateY(-50%);
     display: flex;
@@ -1330,7 +1385,7 @@ p {
     display: flex;
     flex-direction: row;
     height: auto;
-    margin-top: 500px;
+    margin-top: 520px;
     margin-left: 100px;
     margin-bottom: 20px;
     box-sizing: border-box;

@@ -33,6 +33,11 @@ document.getElementById('mobile-education-btn').addEventListener('click', () => 
     window.location.href = '#Education';
 });
 
+document.getElementById('mobile-certify-btn').addEventListener('click', () => {
+    mobileMenu.classList.remove('active');
+    window.location.href = '#certification';
+});
+
 document.getElementById('mobile-projects-btn').addEventListener('click', () => {
     mobileMenu.classList.remove('active');
     window.location.href = '#project';

@@ -850,6 +850,60 @@ p {
     gap: 20px;
 }
 
+/*certification*/
+#certification {
+    background-color: rgba(63, 136, 122, 0.9);
+    color: black;
+    width: 90%;
+    margin-left: 5%;
+    min-height: 680px;
+    position: relative;
+    top: 150px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#certification a1 {
+    font-size: 2rem;
+    font-weight: bolder;
+    color: rgb(199, 218, 223);
+    text-shadow: 5px 5px 10px rgb(46, 0, 81);
+    text-align: center;
+    margin-top: 20px;
+}
+
+#itemscert {
+    box-shadow: 3px 3px 5px 5px white;
+    color: black;
+    width: 250px;
+    height: 415px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    position: relative;
+    border-radius: 5px;
+    flex-shrink: 0;
+    overflow-y: auto;
+}
+
+#detailscert {
+    box-shadow: 0 -6px 2px -2px rgb(237, 76, 76),
+        0 6px 2px -2px rgb(148, 178, 0);
+    color: black;
+    width: 100%;
+    height: 470px;
+    margin-top: 60px;
+    position: relative;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-y: auto;
+}
+
+
 /*Language Section*/
 #languages {
     background: linear-gradient(to bottom,

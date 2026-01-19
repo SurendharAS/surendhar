@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     skill: document.getElementById("skills"),
     pro: document.getElementById("project"),
     ed: document.getElementById("Education"),
+    ct: document.getElementById("certification"),
     lan: document.getElementById("languages"),
     exp: document.getElementById("Experience"),
   };
@@ -13,6 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
     skill: "skill-btn-wrapper",
     pro: "projects-btn-wrapper",
     ed: "education-btn-wrapper",
+    ct:"certificate-btn-wrapper",
     lan: "language-btn-wrapper",
     exp: "Experience-btn-wrapper",
   };
@@ -52,6 +54,9 @@ document.addEventListener("DOMContentLoaded", () => {
   });
   document.getElementById("education-btn").addEventListener("click", () => {
     sections.ed.scrollIntoView({ behavior: "smooth" });
+  });
+    document.getElementById("certificate-btn").addEventListener("click", () => {
+    sections.ct.scrollIntoView({ behavior: "smooth" });
   });
   document.getElementById("skill-btn").addEventListener("click", () => {
     sections.skill.scrollIntoView({ behavior: "smooth" });
